@@ -5,8 +5,7 @@ import logging
 
 #{"model": "gpt-3.5-turbo", "prompt": "Write a story about an alien and a human astronaut", "max_tokens": 100, "temperature": 1}
 #{"model": "dall-e-3", "prompt": "una maquina de helados de chocolate","size": "1024x1024" ,"quality": "standard","n": 1, "max_tokens": 100, "temperature": 1}
-secret_key = "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"
-
+secret_key = ""
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
